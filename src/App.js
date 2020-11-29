@@ -1,6 +1,6 @@
-import FriendList from './components/friendlist/FriendList';
+import FriendList from './components/FriendList/FriendList';
 import './App.css';
-import friends from './components/friendlist/friends.json';
+import friends from './components/data/friends.json';
 
 function App() {
   return (

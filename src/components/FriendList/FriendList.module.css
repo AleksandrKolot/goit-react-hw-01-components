@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  list-style: none;
+}
+.friendList {
+  width: 100px;
+  height: 500px;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  padding: 20px 40px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
