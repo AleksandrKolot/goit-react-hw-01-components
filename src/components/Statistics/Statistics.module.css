@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  list-style: none;
+}
+
+.statistics {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.title {
+  margin: 0 auto;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: rgb(228, 216, 216);
+}
+.statList {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+.item {
+  padding: 5px;
+}
+.label {
+  display: block;
+}
+.percentage {
+  font-size: 18px;
+  display: block;
+}
