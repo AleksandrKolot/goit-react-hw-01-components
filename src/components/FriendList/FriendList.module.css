@@ -6,17 +6,16 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  padding: 0;
 }
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 li {
   list-style: none;
-}
-.friendList {
-  width: 100px;
-  height: 500px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0;
 }
 
 p {
