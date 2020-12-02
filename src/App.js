@@ -4,7 +4,7 @@ import Profile from './components/Profile/Profile';
 import user from './components/data/user.json';
 import Statistics from './components/Statistics/Statistics';
 import statisticalData from './components/data/statistical-data.json';
-import TransactionHistory from './components/transactionHistory/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import transactions from './components/data/transactions.json';
 
 import './App.css';
